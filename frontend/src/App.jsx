@@ -108,12 +108,6 @@ function App() {
                   {resultado.urgencia}
                 </span>
               </div>
-              <div className="result-item">
-                <span className="result-label">Confianza:</span>
-                <span className="result-value confianza">
-                  {(resultado.confianza * 100).toFixed(1)}%
-                </span>
-              </div>
               <div className="result-item full-width">
                 <span className="result-label">Mensaje:</span>
                 <span className="result-value mensaje">{resultado.mensaje}</span>
